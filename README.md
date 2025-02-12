@@ -3,6 +3,7 @@ Home Assistant integration based on ESPHome for Smartvan.io modules
 
 ## Todo
 - [ ] Implement Gradients in light.py
+- [x] Interpolate sensor data using calibration values eg `[[0,1], [1.5,50], [2.2,80]]` stored on sensor attributes `interpolation_points`.
 
 
 ### Installing with HACS
